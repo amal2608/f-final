@@ -1,0 +1,38 @@
+/* Sidebar.css */
+.sidebar {
+  width: 160px;
+  height: 100%;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #f7f4f4; /* Light text color */
+  position: fixed;
+  top: 65px;
+  left: 0;
+  font-weight: bold;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px; /* Adjust the margin as needed */
+  color: #ffffff; /* Light icon color */
+}
